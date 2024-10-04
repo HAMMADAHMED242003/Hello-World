@@ -1,18 +1,21 @@
 html,
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #b7b8b9;
   height: 100%;
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
 .outer-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 375px;
-  margin: auto;
+  background-color: white;
+  width: 66%;
+  background-image: url('pic1.png');
+  background-position: center;
+  background-repeat: no-repeat;
 
 }
 
@@ -22,9 +25,10 @@ body {
   align-items: center;
   padding: 0 20px;
   height: 72px;
-  width: 100%;
+  width: 90%;
   max-width: 760px;
   background-color: white;
+    
 }
 
 .navbar .logo a {
@@ -33,6 +37,7 @@ body {
   color: #007bff;
   text-decoration: none;
 }
+
 
 .nav-links {
   display: flex;
@@ -67,8 +72,7 @@ body {
 
 h1 {
   font-size: 28px;
-  font-weight: bold;
-  color: #233142;
+  font-weight: bold; 
   margin-bottom: 20px;
 }
 
@@ -93,4 +97,10 @@ p {
 
 .social-icons span:hover {
   cursor: pointer;
+}
+
+.logo{
+  font-size: 28px;
+  font-weight: bold;
+  color:#007bff;
 }
