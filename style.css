@@ -11,7 +11,6 @@ body {
 }
 
 .outer-body {
-
   margin-top: 40px;
   position: relative;
   width: 66%;
@@ -29,40 +28,6 @@ body {
     background-color: white
  
   }
-
-=======
-  background-color: white;
-  width: 66%;
-  background-image: url('pic1.png');
-  background-position: center;
-  background-repeat: no-repeat;
-
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-  height: 72px;
-  width: 90%;
-  max-width: 760px;
-  background-color: white;
-    
-}
-
-.navbar .logo a {
-  font-size: 23px;
-  font-weight: bold;
-  color: #007bff;
-  text-decoration: none;
-}
-
-
-.nav-links {
-  display: flex;
-  gap: 20px;
-}
 
 
 .nav-links a {
@@ -92,6 +57,7 @@ body {
   
 }
 .pic{
+
   background-image: url('pic1.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -101,8 +67,6 @@ body {
 
 .inner-content {
   font-size: 50px;
-h1 {
-  font-size: 28px;
   font-weight: bold; 
   margin-bottom: 20px;
   color: #142850;
@@ -135,7 +99,6 @@ p {
   font-size: 28px;
   font-weight: bold;
   color:#007bff;
-
 }
 
 .card {
@@ -418,5 +381,4 @@ button:disabled {
   text-align: center; /* Centers the text horizontally */
   font-size: 2rem;
   color: white;
-
 }
